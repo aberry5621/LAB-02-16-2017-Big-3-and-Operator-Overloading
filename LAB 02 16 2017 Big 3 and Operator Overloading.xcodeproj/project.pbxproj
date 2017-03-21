@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2CBA58F1E80A60D00B12889 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CBA58E1E80A60D00B12889 /* main.cpp */; };
+		E2CBA5971E80A73C00B12889 /* ListBig3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CBA5961E80A73C00B12889 /* ListBig3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E2CBA58B1E80A60D00B12889 /* LAB 02 16 2017 Big 3 and Operator Overloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LAB 02 16 2017 Big 3 and Operator Overloading"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CBA58E1E80A60D00B12889 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2CBA5951E80A6FB00B12889 /* ListBig3_H.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBig3_H.h; sourceTree = "<group>"; };
+		E2CBA5961E80A73C00B12889 /* ListBig3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListBig3.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E2CBA58E1E80A60D00B12889 /* main.cpp */,
+				E2CBA5951E80A6FB00B12889 /* ListBig3_H.h */,
+				E2CBA5961E80A73C00B12889 /* ListBig3.cpp */,
 			);
 			path = "LAB 02 16 2017 Big 3 and Operator Overloading";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CBA5971E80A73C00B12889 /* ListBig3.cpp in Sources */,
 				E2CBA58F1E80A60D00B12889 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
