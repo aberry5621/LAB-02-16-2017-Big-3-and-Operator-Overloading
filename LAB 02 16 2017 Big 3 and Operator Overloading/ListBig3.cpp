@@ -23,7 +23,7 @@ List::List(int p_cap) {
     capacity = p_cap;
 }
 
-// OVERLOADED COPY CONSTRUCTOR!
+// OVERLOADED COPY CONSTRUCTOR
 List::List(const List& p_obj) {
     cout << "Overloaded copy constructor invoked\n";
     // Allocate separate memory for data list
@@ -69,9 +69,10 @@ List& List::operator= (const List& p_obj) {
     return *this;
 }
 
-// OVERLOADED DESTROY
-//List::~List()
-//{
-//	//Deallocate dynamic array
-//}
+// OVERLOADED DESTROY AUTO CLEANER 5000
+List::~List()
+{
+	//Deallocate dynamic array
+    delete [] this->dataList;
+}
 

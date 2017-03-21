@@ -15,7 +15,7 @@ public:
     List();
     List(int);
     
-    // OVERLOADED COPY CONSTRUCTOR!
+    // OVERLOADED COPY CONSTRUCTOR
     List(const List&);
     
     void addItem(int newItem);
@@ -26,7 +26,8 @@ public:
     List& operator= (const List&);
     
     // OVERLOADED DESTROY
-    /*~List();*/
+    ~List();
+
 private:
     int * dataList;
     int length;
