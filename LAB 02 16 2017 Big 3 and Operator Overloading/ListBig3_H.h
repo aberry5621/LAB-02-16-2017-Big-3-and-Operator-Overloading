@@ -14,13 +14,18 @@ class List
 public:
     List();
     List(int);
-    /*List(const List&);*/
+    
+    // OVERLOADED COPY CONSTRUCTOR!
+    List(const List&);
     
     void addItem(int newItem);
     void printList();
     void decrementAll();
     
-    /*List& operator= (const List&);*/
+    // OVERLOADED ASSIGNMENT OPERATOR
+    List& operator= (const List&);
+    
+    // OVERLOADED DESTROY
     /*~List();*/
 private:
     int * dataList;

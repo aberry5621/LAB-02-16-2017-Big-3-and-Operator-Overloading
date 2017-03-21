@@ -9,6 +9,10 @@
 /*
  Implement List class so that each member has its own data
  
+ create object one, assign list values to its dataList member
+ create object two, use object constructor, obj2(obj1)
+ create object three, use assignment operator obj3 = obj2
+ 
  A - Assignment
  C - Copy
  D - Destroy
@@ -33,6 +37,7 @@ int main()
     
     List obj3;
     obj3 = obj2;
+    obj1.decrementAll();
     obj2.decrementAll();
     
     cout << "Object 1:\t";
